@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://jtom.me/images/home-bg3.ef171b05.jpg");
+  background-size: cover;
+  min-height: 100%;
+  line-height: 1;
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  background: rgba(145, 13, 13, 0.5);
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  padding: 15px;
+  height: 5rem;
+  color: white;
+}
+header ul {
+  margin-right: var(--right-margin);
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+main {
+  max-width: 1140px;
+  min-width: 786px;
+  margin: auto;
+}
+
+main section ul li > *,
+header ul li a {
+  font-size: 20px;
+  padding: 0.4rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.project-names {
+  display: inline-block;
+  margin-left: 345px;
+  align-items: center;
+  color: white;
+  margin-bottom: 23px;
+}
+.project-card {
+  display: flex;
+}
+.project-card:hover {
+  filter: grayscale(0%);
+  cursor: pointer;
+  color: red;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 25px;
+}
+main section h2 {
+  font-size: 45px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 35px;
+}
+
+.experience {
+  display: inline-block;
+  margin-left: 345px;
+  font-size: 25px;
+  color: white;
+}
+
+section ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: underline;
+  margin-left: 380px;
+  list-style: none;
+  background-color: rgba(145, 13, 13, 0.5);
+  font-size: 15px;
+}
+
+footer {
+  margin: 5vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+}
+@media screen and (max-width:867px) {
+    header {
+        display: block;
+        height: 100%;
+    }
+    @media screen and (max-width:500px) {
+    body section ul li > * {
+        width: 100%;
+    }
+
+    header ul li a {
+        width: 100%;
+    }
