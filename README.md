@@ -24,7 +24,17 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
+
+
+
+
 Example Images
+
+
+
+
+
+
 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/012/633/original/Portfolio__image.PNG?1625880119" width="350" />
 
 
