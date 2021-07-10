@@ -156,9 +156,10 @@ footer {
     font-size: 18px;
 }
 
-@media screen and (max-width: 867px) {
+@media screen and (max-width: 768px) {
     header {
-        display: inline-block;
+        display: block;
+        margin: auto;
     }
     body header h1 {
         display: inline-block;
@@ -166,18 +167,9 @@ footer {
     header ul {
         display: inline-block;
         justify-content: center;
-        padding-top: 0.4rem;
+        /* padding-top: 0.4rem; */
     }
     header ul li a {
         display: flex;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    body section ul li>* {
-        width: 50%;
-    }
-    header ul li a {
-        width: 50%;
     }
 }
