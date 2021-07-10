@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("https://jtom.me/images/home-bg3.ef171b05.jpg");
+    background-color: black;
     background-size: cover;
     min-height: 100%;
     line-height: 1;
@@ -13,7 +13,6 @@ body {
 }
 
 header {
-    background: rgba(145, 13, 13, 0.5);
     display: flex;
     justify-content: space-between;
 }
@@ -22,6 +21,7 @@ header h1 {
     padding: 15px;
     height: 5rem;
     color: white;
+    text-shadow: red 18px 8px 15px;
 }
 
 header ul {
@@ -29,17 +29,19 @@ header ul {
     display: flex;
     align-items: center;
     list-style: none;
+    color: white;
 }
 
 .logo {
     display: inline;
-    margin-top: 35px;
+    margin-top: 30px;
+    text-shadow: red 18px 8px 15px;
 }
 
 .logo:hover {
     cursor: pointer;
     font-size: 46px;
-    text-decoration: underline;
+    color: red !important;
 }
 
 main {
@@ -53,12 +55,18 @@ main {
     margin-top: 35px;
 }
 
-.person-logo :hover {
-    cursor: pointer;
+.person-avatar {
+    border: red 5px solid;
     border-radius: 50px;
+    box-shadow: 8px 8px 15px white;
 }
 
-section ul li>*,
+.person-avatar:hover {
+    width: 450px;
+    cursor: pointer;
+}
+
+ul li>*,
 header ul li a {
     font-size: 20px;
     padding: 0.4rem;
@@ -74,11 +82,12 @@ section h2 {
     margin-top: 35px;
 }
 
-.experience {
+.aboutme {
     display: inline-block;
     margin-left: 345px;
     font-size: 25px;
     color: white;
+    margin-top: -25px;
 }
 
 main section ul {
@@ -88,7 +97,6 @@ main section ul {
     text-decoration: underline;
     margin-left: 380px;
     list-style: none;
-    background-color: rgba(145, 13, 13, 0.5);
     font-size: 15px;
 }
 
@@ -105,22 +113,46 @@ main section ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    border: red 2px solid;
+    box-shadow: 8px 8px 15px #e50914;
+    margin-bottom: 45px;
+    max-width: 100%;
+    height: 100%;
 }
 
 .project-card img {
-    filter: grayscale(100%);
+    filter: grayscale(50%);
 }
 
 .project-card img:hover {
-    filter: grayscale(0%);
+    filter: grayscale(40%);
     cursor: pointer;
+    width: 750px;
+    box-shadow: 10px 10px 25px blue;
+    border: rgb(33, 90, 196) 2px dotted;
+}
+
+.title {
+    color: white;
+    font-size: 25px;
+    margin-top: -35px;
+}
+
+.phone {
+    margin-top: -35px;
+    margin-left: -250px;
+}
+
+.email {
+    margin-top: -40px;
+    margin-left: -250px;
 }
 
 footer {
     margin: 5vh;
     display: flex;
     justify-content: center;
-    color: white;
+    color: red;
     font-size: 18px;
 }
 
