@@ -1,9 +1,17 @@
-# My-Portfolio
+# My Portfolio
 
-Link to the live page:https://sarmanova.github.io/My-Portfolio/
+## Link to the live page:
+https://sarmanova.github.io/My-Portfolio/
 
-Acceptance Criteria
 
+## Description 
+Created a My Personal Portfolio used HTML,CSS
+## License
+#### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+## Acceptance Criteria
+```
 GIVEN I need to sample a potential employee's previous work
 
 WHEN I load their portfolio
@@ -23,26 +31,17 @@ THEN I am taken to that deployed application
 
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+```
 
 
-
-
-
-Example Images
-
-
-
-
-
+## Example Images
 
 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/012/633/original/Portfolio__image.PNG?1625880119" width="350" />
 
 
 
-License
-MIT
 
-Contact
-Zhansaya Sarmanova
-zhansayasarmanova1993@gmail.com
+## Contact info
+Zhansaya Sarmanova <br>
+zhansayasarmanova1993@gmail.com<br>
 4155245920
